@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>Registration</h2>
+<p>This page supports dark mode.</p>
+
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<form action="/action_page.php">
+    First name: <input type="text" name="FirstName" value="Mickey"><br>
+    Last name: <input type="text" name="LastName" value="Mouse"><br>
+    Email: <input type="email" name="LastName" value="mickey@mouse.com"><br>
+    Date of birth: <input type="date" name="bday"><br>
+    Country: <select>
+        <option value="volvo">Estonia</option>
+        <option value="saab">Finland</option>
+      </select><br>
+    Sity: <input type="text" name="LastName" value="Mouse"><br>
+    Instagram account: <input type="text" name="LastName" value="Mouse"><br>
+    Youtube account: <input type="text" name="LastName" value="Mouse"><br>
+    <input type="submit" value="Submit">
+    </form>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html>
+

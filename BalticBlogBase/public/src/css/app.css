@@ -1,0 +1,67 @@
+.text-center {
+  text-align: center;
+}
+
+.drawer-option {
+  padding: 16px;
+}
+
+.firma-ara {
+  padding-bottom: 200px;
+  padding-top: 200px;
+}
+
+.form-arka-plan {
+  background-image: url("https://sun9-56.userapi.com/c200728/v200728363/46910/R2GGoFumRqk.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.acik-renk-form {
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.siyah-cerceve{
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.dark-mode {
+  color: white;
+}
+
+#map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%; 
+  padding: 100px; /* The width is the width of the web page */
+ }
+
+ [data-theme="dark"] {
+
+    background-color:#111 !important;
+  
+    background-image: url("https://sun9-31.userapi.com/c834104/v834104980/182c74/suWrDmwGpzo.jpg");
+  
+  }
+
+  [data-theme="dark"] .bg-light {
+
+    background-color:#333 !important;
+
+  }
+  
+  [data-theme="dark"] .bg-white {
+
+    background-color:#000 !important;
+
+  }
+
+  [data-theme="dark"] .bg-black {
+
+    background-color:#eee !important;
+ 
+  }
+  
+
